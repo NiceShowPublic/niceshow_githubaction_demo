@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: into workspace
-      run: cd nc_gcc_test
-    - name: make
-      run: make
+      run: |
+        cd nc_gcc_test
+        make
     - name: run demo
       run: ./nc_gcctest
