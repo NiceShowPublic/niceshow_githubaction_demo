@@ -17,5 +17,4 @@ jobs:
       run: |
         cd nc_gcc_test
         make
-    - name: run demo
-      run: ./nc_gcctest
+        ./nc_gcctest
